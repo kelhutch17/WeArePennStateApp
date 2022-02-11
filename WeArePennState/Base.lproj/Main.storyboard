@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeArePennState" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTa-fW-5jj">
+                                <rect key="frame" x="132" y="612" width="150" height="75"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="RYC-wC-Dsp"/>
+                                    <constraint firstAttribute="height" constant="75" id="zVL-Dz-xfu"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="CHEER">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="we_are.png" translatesAutoresizingMaskIntoConstraints="NO" id="wAB-qE-bD2">
+                                <rect key="frame" x="32" y="152.5" width="350" height="330"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="330" id="D07-uQ-r6Q"/>
+                                    <constraint firstAttribute="width" constant="350" id="eAx-BB-xAN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we are" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbl-94-deM">
+                                <rect key="frame" x="16" y="504.5" width="382" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="wAB-qE-bD2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0qc-ha-QoG"/>
+                            <constraint firstItem="Jbl-94-deM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2FX-eP-RX4"/>
+                            <constraint firstItem="YTa-fW-5jj" firstAttribute="top" secondItem="Jbl-94-deM" secondAttribute="bottom" constant="75" id="R4l-Uv-DPc"/>
+                            <constraint firstItem="YTa-fW-5jj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SU0-Oi-OLK"/>
+                            <constraint firstItem="wAB-qE-bD2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="X1r-iA-8vQ"/>
+                            <constraint firstItem="Jbl-94-deM" firstAttribute="top" secondItem="wAB-qE-bD2" secondAttribute="bottom" constant="22" id="etS-KT-qwS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jbl-94-deM" secondAttribute="trailing" constant="16" id="wPS-uP-RSz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YTa-fW-5jj" secondAttribute="bottom" constant="175" id="yNf-6D-tH6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="YTa-fW-5jj" id="hjP-53-aUc"/>
+                        <outlet property="imageView" destination="wAB-qE-bD2" id="bca-Ti-jK5"/>
+                        <outlet property="label" destination="Jbl-94-deM" id="woU-6L-vpM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="we_are.png" width="222" height="330"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

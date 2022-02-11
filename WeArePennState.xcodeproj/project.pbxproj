@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CF7BB27B5BEE000D267AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF7BA27B5BEE000D267AF /* AppDelegate.swift */; };
+		001CF7BD27B5BEE000D267AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF7BC27B5BEE000D267AF /* SceneDelegate.swift */; };
+		001CF7BF27B5BEE000D267AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001CF7BE27B5BEE000D267AF /* ViewController.swift */; };
+		001CF7C227B5BEE000D267AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7C027B5BEE000D267AF /* Main.storyboard */; };
+		001CF7C427B5BEE200D267AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7C327B5BEE200D267AF /* Assets.xcassets */; };
+		001CF7C727B5BEE200D267AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7C527B5BEE200D267AF /* LaunchScreen.storyboard */; };
+		001CF7D027B5C56000D267AF /* we_are.png in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7CE27B5C56000D267AF /* we_are.png */; };
+		001CF7D127B5C56000D267AF /* penn_state.png in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7CF27B5C56000D267AF /* penn_state.png */; };
+		001CF7D327B5CE3C00D267AF /* student_section.png in Resources */ = {isa = PBXBuildFile; fileRef = 001CF7D227B5CE3C00D267AF /* student_section.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001CF7B727B5BEE000D267AF /* WeArePennState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeArePennState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001CF7BA27B5BEE000D267AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001CF7BC27B5BEE000D267AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		001CF7BE27B5BEE000D267AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		001CF7C127B5BEE000D267AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001CF7C327B5BEE200D267AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001CF7C627B5BEE200D267AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001CF7C827B5BEE200D267AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001CF7CE27B5C56000D267AF /* we_are.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = we_are.png; sourceTree = "<group>"; };
+		001CF7CF27B5C56000D267AF /* penn_state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penn_state.png; sourceTree = "<group>"; };
+		001CF7D227B5CE3C00D267AF /* student_section.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student_section.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001CF7B427B5BEE000D267AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001CF7AE27B5BEE000D267AF = {
+			isa = PBXGroup;
+			children = (
+				001CF7B927B5BEE000D267AF /* WeArePennState */,
+				001CF7B827B5BEE000D267AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001CF7B827B5BEE000D267AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001CF7B727B5BEE000D267AF /* WeArePennState.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001CF7B927B5BEE000D267AF /* WeArePennState */ = {
+			isa = PBXGroup;
+			children = (
+				001CF7BA27B5BEE000D267AF /* AppDelegate.swift */,
+				001CF7BC27B5BEE000D267AF /* SceneDelegate.swift */,
+				001CF7BE27B5BEE000D267AF /* ViewController.swift */,
+				001CF7C027B5BEE000D267AF /* Main.storyboard */,
+				001CF7C327B5BEE200D267AF /* Assets.xcassets */,
+				001CF7C527B5BEE200D267AF /* LaunchScreen.storyboard */,
+				001CF7C827B5BEE200D267AF /* Info.plist */,
+				001CF7CF27B5C56000D267AF /* penn_state.png */,
+				001CF7CE27B5C56000D267AF /* we_are.png */,
+				001CF7D227B5CE3C00D267AF /* student_section.png */,
+			);
+			path = WeArePennState;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001CF7B627B5BEE000D267AF /* WeArePennState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001CF7CB27B5BEE200D267AF /* Build configuration list for PBXNativeTarget "WeArePennState" */;
+			buildPhases = (
+				001CF7B327B5BEE000D267AF /* Sources */,
+				001CF7B427B5BEE000D267AF /* Frameworks */,
+				001CF7B527B5BEE000D267AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeArePennState;
+			productName = WeArePennState;
+			productReference = 001CF7B727B5BEE000D267AF /* WeArePennState.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001CF7AF27B5BEE000D267AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					001CF7B627B5BEE000D267AF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 001CF7B227B5BEE000D267AF /* Build configuration list for PBXProject "WeArePennState" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001CF7AE27B5BEE000D267AF;
+			productRefGroup = 001CF7B827B5BEE000D267AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001CF7B627B5BEE000D267AF /* WeArePennState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001CF7B527B5BEE000D267AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001CF7D027B5C56000D267AF /* we_are.png in Resources */,
+				001CF7D327B5CE3C00D267AF /* student_section.png in Resources */,
+				001CF7C727B5BEE200D267AF /* LaunchScreen.storyboard in Resources */,
+				001CF7C427B5BEE200D267AF /* Assets.xcassets in Resources */,
+				001CF7D127B5C56000D267AF /* penn_state.png in Resources */,
+				001CF7C227B5BEE000D267AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001CF7B327B5BEE000D267AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001CF7BF27B5BEE000D267AF /* ViewController.swift in Sources */,
+				001CF7BB27B5BEE000D267AF /* AppDelegate.swift in Sources */,
+				001CF7BD27B5BEE000D267AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001CF7C027B5BEE000D267AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CF7C127B5BEE000D267AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001CF7C527B5BEE200D267AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001CF7C627B5BEE200D267AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001CF7C927B5BEE200D267AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001CF7CA27B5BEE200D267AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001CF7CC27B5BEE200D267AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeArePennState/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.WeArePennState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001CF7CD27B5BEE200D267AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeArePennState/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.WeArePennState;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001CF7B227B5BEE000D267AF /* Build configuration list for PBXProject "WeArePennState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CF7C927B5BEE200D267AF /* Debug */,
+				001CF7CA27B5BEE200D267AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001CF7CB27B5BEE200D267AF /* Build configuration list for PBXNativeTarget "WeArePennState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001CF7CC27B5BEE200D267AF /* Debug */,
+				001CF7CD27B5BEE200D267AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001CF7AF27B5BEE000D267AF /* Project object */;
+}
